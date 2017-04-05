@@ -12,7 +12,7 @@ const SignInModal = () => {
 				</Row>
 				<Row>
 					<Col s={6}><Button className='red btn' waves='light'>Forgot My Login</Button></Col>
-					<Col s={6}><Button name='action' type='submit' className='green btn' waves='light'>Sign In</Button></Col>
+					<Col s={6}><Button name='action' type='submit' className='green btn' waves='light' href='/dashboard'>Sign In</Button></Col>
 				</Row>
 			</div>
 		);

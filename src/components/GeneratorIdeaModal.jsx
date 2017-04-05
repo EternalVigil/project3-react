@@ -6,9 +6,9 @@ const codeLanguage = ['jQuery', 'PHP', 'Python', 'Java'];
 
 function getRandomEntry(array){
 	const upperBound = array.length;
-	//console.log(upperBound);
+	// console.log(upperBound);
 	const randomIndex = Math.floor(Math.random() * upperBound);
-	//console.log(array[randomIndex]);
+	// console.log(array[randomIndex]);
 	return array[randomIndex];
 }
 
